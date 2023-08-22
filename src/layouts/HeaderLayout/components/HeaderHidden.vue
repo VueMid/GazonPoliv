@@ -97,7 +97,7 @@
                         <ul class="text-sm text-gray-700" aria-labelledby="dropdownLargeButton">
                             <li>
                                 <a href="#"
-                                    class="block active:bg-lighter-green active:text-white text-dark-black pl-14 pr-10 py-5 border-b-2 border-dark-black text">EN</a>
+                                    class="block active:bg-lighter-green active:text-white text-dark-black pl-14 pr-10 py-5 border-b-2 border-dark-black text">ENG</a>
                             </li>
                             <li>
                                 <a href="#"
@@ -106,7 +106,7 @@
                         </ul>
                         <div class="">
                             <a href="#"
-                                class="block active:bg-lighter-green text-sm active:text-white text-dark-black pl-14 pr-10 py-5  border-dark-black text">UZ</a>
+                                class="block active:bg-lighter-green text-sm active:text-white text-dark-black pl-14 pr-10 py-5 border-dark-black text">UZ</a>
                         </div>
                     </div>
                 </Transition>
