@@ -1,7 +1,7 @@
 <template>
     <section class="information bg-white">
         <div
-            class="container information__container w-full pb-[100px] flex flex-wrap flex-column justify-content-center align-items-center gap-10 md:flex md:flex-row md:justify-center md:items-center lg:flex lg:flex-row lg:justify-between lg:items-center lg:gap-20">
+            class="container w-full pb-[100px] flex flex-wrap flex-column justify-center items-center gap-10 md:flex md:flex-row md:justify-between md:items-center md:gap-0 lg:flex lg:flex-row lg:justify-between lg:items-center lg:gap-20">
             <div class="flex flex-col justify-center">
                 <h6 class="information__small-title text-[17px] font-semibold text-green-700">Biz haqimizda</h6>
                 <h1

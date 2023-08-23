@@ -5,6 +5,7 @@
         <WelcomeSection />
         <PlantSection />
         <ServiceSection />
+        <GallerySection/>
         <RatingSection />
         <ContactSection />
     </div>
@@ -15,17 +16,19 @@ import InformationSection from './HomeSections/InformationSection.vue';
 import WelcomeSection from './HomeSections/WelcomeSection.vue';
 import PlantSection from './HomeSections/PlantSection.vue';
 import ServiceSection from './HomeSections/ServiceSection.vue';
+import GallerySection from './HomeSections/GallerySection.vue';
 import RatingSection from './HomeSections/RatingSection.vue';
 import ContactSection from './HomeSections/ContactSection.vue';
 export default {
     components: {
-        HomeSection,
-        InformationSection,
-        WelcomeSection,
-        PlantSection,
-        ServiceSection,
-        RatingSection,
-        ContactSection
-    }
+    HomeSection,
+    InformationSection,
+    WelcomeSection,
+    PlantSection,
+    ServiceSection,
+    GallerySection,
+    RatingSection,
+    ContactSection,
+}
 }
 </script>
