@@ -4,11 +4,11 @@ export default [{
         icon: "fas fa-chevron-right",
         isDropdownOpened: false,
         childMenu: [{
-                name: 'First',
+                name: 'Gazon',
                 link: '#',
             },
             {
-                name: 'Second',
+                name: "Sug'orish tizimi",
                 link: '#',
             },
         ]
