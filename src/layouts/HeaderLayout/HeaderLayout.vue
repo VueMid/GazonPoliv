@@ -1,6 +1,6 @@
 <template>
     <header class="header bg-darker-green md:bg-white relative z-[9999]">
-        <div class="container py-[11px] md:pt-[34px] md:pb-[60px] lg:px-6 lg:pt-[34px] lg:pb-[62px]">
+        <div class="container py-[11px] md:pt-[34px] lg:px-6 lg:pt-[34px]">
             <HeaderLogo @openMenu='toggleMenu' :isOpen="isOpen" />
             <HeaderNavbar />
         </div>
