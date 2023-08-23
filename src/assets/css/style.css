@@ -1,6 +1,6 @@
 ::selection {
-    background-color: var(--black);
-    color: var(--white);
+    background-color: green;
+    color: white;
 }
 
 *,
@@ -70,13 +70,14 @@ body {
     overflow-x: hidden;
 }
 
-.visually-hidden {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    border: 0;
-    padding: 0;
-    clip: rect(0 0 0 0);
-    overflow: hidden;
+#preloader {
+    background: #008435;
+    background-image: url('../icons/Curious-Loader.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 30%;
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    z-index: 19999;
 }
