@@ -1,4 +1,4 @@
-<template>
+    <template>
     <section class="service">
         <div class="container service__container flex flex-col justify-center items-center py-16 md:flex">
             <div class="service__top-box flex flex-col justify-center items-center">

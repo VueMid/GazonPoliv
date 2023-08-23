@@ -1,6 +1,6 @@
 <template>
     <section class="rating bg-green-700">
-        <div class="container rating__section flex flex-col justify-center items-center py-16 gap-[120px] md:flex md:flex-col md:justify-center md:items-center md:gap-[140px] lg:gap-[130px]">
+        <div class="container rating__section flex flex-col justify-center items-center py-16 gap-[120px] md:flex md:flex-col md:justify-center md:items-center md:gap-[140px] lg:gap-[150px] lg:py-[110px]">
             <div class="rating__top flex flex-col justify-center items-center">
                 <p class="rating__text text-[17px]  font-bold text-white md:text-[20px]">
                     Faktlar

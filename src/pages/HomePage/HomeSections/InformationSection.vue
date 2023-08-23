@@ -41,9 +41,9 @@
         background-color: wheat;
         box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
         background-image: url('@/assets/images/promo-shap.png');
-        background-position: left bottom;
+        background-position: bottom;
         background-repeat: no-repeat;
-        background-size: auto;
+        background-size: contain;
         position: relative;
         z-index: 101;
         transform: translateY(-70px);
@@ -62,9 +62,9 @@
             background-color: wheat;
             box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
             background-image: url('@/assets/images/promo-shap.png');
-            background-position: left bottom;
+            background-position: bottom;
             background-repeat: no-repeat;
-            background-size: auto;
+            background-size: contain;
             position: relative;
             z-index: 101;
             transform: translateY(-70px);
@@ -84,9 +84,9 @@
             background-color: wheat;
             box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
             background-image: url('@/assets/images/promo-shap.png');
-            background-position: left bottom;
+            background-position: bottom;
             background-repeat: no-repeat;
-            background-size: auto;
+            background-size: contain;
             position: relative;
             z-index: 101;
             transform: translateY(-80px);
