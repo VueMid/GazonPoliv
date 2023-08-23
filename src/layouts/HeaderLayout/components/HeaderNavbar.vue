@@ -10,7 +10,7 @@
               [menuArray[idx].isDropdownOpened === true ? 'rotate-90' : 'rotate-0']">
             </i>
           </router-link>
-          <ul v-if="menuArray[idx].isDropdownOpened" class="absolute">
+          <ul v-if="menuArray[idx].isDropdownOpened" class="absolute z-10">
             <li class="bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700 dark:divide-gray-600">
               <ul class="py-2 text-sm text-gray-700 dark:text-gray-400">
                 <li v-for="childItem in item.childMenu" :key="childItem">
@@ -41,10 +41,7 @@ export default {
     }
   },
   methods: {
-    openDropdown(idx) {
-      // if (idx >= 0 && idx < this.menuArray.length) {
-      //   this.menuArray[idx].isDropdownOpened = !this.menuArray[idx].isDropdownOpened;
-      // }    
+    openDropdown(idx) { 
       if (idx === 0) {
         this.menuArray[idx].isDropdownOpened = !this.menuArray[idx].isDropdownOpened;
       }
