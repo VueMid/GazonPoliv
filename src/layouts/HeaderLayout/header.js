@@ -1,5 +1,10 @@
-export default [{
+export default [
+    {
         name: 'Biz haqimizda',
+        link: ''
+    },
+    {
+        name: 'Xizmatlar',
         link: '',
         icon: "fas fa-chevron-right",
         isDropdownOpened: false,
@@ -14,15 +19,11 @@ export default [{
         ]
     },
     {
-        name: 'Xizmatlar',
-        link: ''
-    },
-    {
         name: 'Loyihalar',
         link: ''
     },
     {
-        name: 'Nega biz ?',
+        name: 'Nega Biz ?',
         link: ''
     },
     {

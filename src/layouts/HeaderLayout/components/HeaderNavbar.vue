@@ -6,7 +6,7 @@
           class="py-5 px-3 xl:py-7 xl:px-6 xxl:px-8 border-r border-black/20 relative bg-darker-green">
           <router-link to="#" class="text-white text-md xl:text-lg">
             {{ item.name }}
-            <i class="transition-all duration-300" :class="item.icon``,
+            <i class="transition-all duration-300" :class="item.icon,
               [menuArray[idx].isDropdownOpened === true ? 'rotate-90' : 'rotate-0']">
             </i>
           </router-link>
@@ -32,10 +32,8 @@
     </nav>
   </header>
 </template>
-
 <script>
 import menuArray from '../header.js'
-
 export default {
   data() {
     return {
@@ -54,7 +52,6 @@ export default {
   }
 }
 </script>
-
 <style scoped>
 .border-r:last-child {
   border: none;
