@@ -1,35 +1,32 @@
 <template>
   <!-- Main modal -->
   <div
-    class="fixed top-0 left-0 right-0 z-50 w-full p-4 overflow-x-hidden overflow-y-auto md:inset-0 h-[calc(100%-1rem)] max-h-full">
-    <div class="relative w-full max-w-2xl max-h-full">
+    class="fixed top-0 left-0 right-0 z-50 w-full p-4 overflow-x-hidden overflow-y-auto md:inset-0 h-full max-h-full bg-black/50 flex items-center justify-center">
+    <div class="relative w-full max-w-5xl max-h-full">
       <!-- Modal content -->
-      <div class="relative bg-white rounded-lg shadow dark:bg-gray-700">
-        <!-- Modal header -->
-        <div class="flex items-start justify-between p-4 border-b rounded-t dark:border-gray-600">
-          <h3 class="text-xl font-semibold text-gray-900 dark:text-white">
-            {{ info.name }}
-          </h3>
-          <button @click="$emit('closeModal')"
-            class="text-gray-900 hover:bg-gray-200 hover:text-gray-900 rounded-lg text-sm w-8 h-8 ml-auto inline-flex justify-center items-center">
-            <i class="fa-solid fa-xmark text-2xl"></i>
-          </button>
-        </div>
+
+
+      <div class="relative bg-white shadow py-5 px-10">
+        <button @click="$emit('closeModal')"
+          class="text-gray-300 hover:text-gray-900 ml-auto flex justify-end items-center">
+          <i class="fa-solid fa-xmark text-2xl"></i>
+        </button>
+
         <!-- Modal body -->
-        <div class="p-6 space-y-6">
-          <p class="text-base leading-relaxed text-gray-500 dark:text-gray-400">
-            The European Union’s General Data Protection Regulation (G.D.P.R.) goes into effect on May 25 and is meant
-            to ensure a common set of data rights in the European Union. It requires organizations to notify users as
-            soon as possible of high-risk data breaches that could personally affect them.
-          </p>
-        </div>
-        <!-- Modal footer -->
-        <div class="flex items-center p-6 space-x-2 border-t border-gray-200 rounded-b dark:border-gray-600">
-          <button data-modal-hide="staticModal" type="button"
-            class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">I
-            accept</button>
-          <button @click="$emit('closeModal')" data-modal-hide="staticModal" type="button"
-            class="text-gray-500 bg-white hover:bg-gray-100 focus:ring-4 focus:outline-none focus:ring-blue-300 rounded-lg border border-gray-200 text-sm font-medium px-5 py-2.5 hover:text-gray-900 focus:z-10 dark:bg-gray-700 dark:text-gray-300 dark:border-gray-500 dark:hover:text-white dark:hover:bg-gray-600 dark:focus:ring-gray-600">Decline</button>
+        <div class="modal-body flex items-start justify-center flex-wrap lg:justify-start lg:flex-nowrap gap-5">
+          <div class="image-block">
+            <img :src="info.image" class="w-full h-full" alt="#">
+          </div>
+          <div class="text-content w-full md:max-w-[70%]">
+            <h3 class="title text-3xl font-semibold text-gray-900 pb-3 relative">
+              {{ info.name }}
+            </h3>
+            <p class="text-base py-6 w-full leading-relaxed text-gray-500 dark:text-gray-400"
+              v-html="replaceWithBr(info.desc)" />
+              <button class="bg-darker-green text-white px-9 py-4">
+                Lohiya havolasi
+              </button>
+          </div>
         </div>
       </div>
     </div>
@@ -37,16 +34,44 @@
 </template>
 
 <script>
-export default {
-  data() {
-    return {
+import TheButton from '../../../MaterialUI/TheButton.vue'
 
-    }
-  },
+export default {
+  components: { TheButton },
+  data() { return {} },
   props: {
     info: {
       type: Object
     }
+  },
+  methods: {
+    replaceWithBr(s) {
+      return s.replace(/\n/g, "<br>");
+    },
   }
 }
 </script>
+
+<style scoped>
+.title::before {
+  content: "LOYIHA MA'LUMOTI";
+  color: gainsboro;
+  opacity: 0.1;
+  font-size: 55px;
+  font-weight: 800;
+  position: absolute;
+  z-index: 1;
+  bottom: 0;
+}
+
+.title::after {
+  content: "";
+  width: 120px;
+  height: 5px;
+  background: green;
+  position: absolute;
+  z-index: 1;
+  bottom: 0;
+  left: 0;
+}
+</style>
