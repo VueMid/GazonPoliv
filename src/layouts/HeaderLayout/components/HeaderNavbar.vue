@@ -42,7 +42,7 @@ export default {
   },
   methods: {
     openDropdown(idx) {
-      if (idx === 0) {
+      if (idx === 1) {
         this.menuArray[idx].isDropdownOpened = !this.menuArray[idx].isDropdownOpened;
       }
       if (idx === 6) {
