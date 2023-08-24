@@ -1,9 +1,9 @@
 <template>
     <section class="plant bg-green-700">
         <div
-            class="container plant__container py-16 lg:py-24 flex flex-col justify-center items-start gap-16 lg:flex lg:flex-col lg:justify-between lg:items-center lg:gap-[100px]">
+            class="container plant__container py-16 lg:py-24 flex flex-col justify-center items-start gap-16 md:flex md:flex-wrap md:justify-between md:items-center lg:gap-[100px]">
             <div
-                class="plant__boxes md:flex md:flex-row md:justify-center md:items-center gap-16 lg:flex lg:flex-row lg:justify-between lg:items-center lg:gap-30">
+                class="plant__boxes w-full md:flex md:flex-row md:justify-center md:items-center gap-16 lg:flex lg:flex-row lg:justify-between lg:items-center lg:gap-30">
                 <img class="plant__images md:w-[350px] lg:w-[500px]" src="@/assets/images/gazon.png" alt="">
                 <div class="plant__mini-box flex flex-col justify-center items-start">
                     <h2 class="plant__titles text-[30px] font-bold mt-2 text-white md:mb-5 lg:text-[50px]">Gazon xizmati
@@ -21,7 +21,7 @@
                 </div>
             </div>
             <div
-                class="plant__boxes md:flex md:flex-row md:justify-center md:items-center gap-16 lg:flex lg:flex-row lg:justify-between lg:items-center lg:gap-30">
+                class="plant__boxes w-full   md:flex md:flex-row md:justify-center md:items-center gap-16 lg:flex lg:flex-row lg:justify-between lg:items-center lg:gap-30">
                 <div class="plant__mini-box flex flex-col justify-center items-start mb-7">
                     <h2 class="plant__titles text-[30px] font-bold mt-2 text-white md:mb-5 lg:text-[50px]">Poliv xizmati
                     </h2>
@@ -48,4 +48,5 @@ export default {
 </script>
 <style lang="scss">
 .plant {}
+
 </style>

@@ -6,7 +6,7 @@
           class="py-5 px-3 xl:py-7 xl:px-6 xxl:px-8 border-r border-black/20 relative bg-darker-green">
           <router-link to="#" class="text-white text-md xl:text-lg">
             {{ item.name }}
-            <i class="transition-all duration-300" :class="item.icon,
+            <i class="transition-all duration-300" :class="item.icon``,
               [menuArray[idx].isDropdownOpened === true ? 'rotate-90' : 'rotate-0']">
             </i>
           </router-link>
@@ -23,7 +23,9 @@
             </li>
           </ul>
         </li>
-        <li class="hidden lg:flex px-9 bg-dim-black text-white text-lg items-center justify-center">
+        <li
+          class="hidden px-2 py-0 bg-dim-black text-white text-lg lg:flex lg:flex-row lg:items-center lg:justify-center lg:gap-5">
+          <i class="fa-solid fa-phone-volume fa-shake"></i>
           +998 33 995 75 65
         </li>
       </ul>
@@ -41,7 +43,7 @@ export default {
     }
   },
   methods: {
-    openDropdown(idx) { 
+    openDropdown(idx) {
       if (idx === 0) {
         this.menuArray[idx].isDropdownOpened = !this.menuArray[idx].isDropdownOpened;
       }

@@ -5,9 +5,10 @@
         <WelcomeSection />
         <PlantSection />
         <ServiceSection />
-        <GallerySection/>
+        <GallerySection />
         <RatingSection />
         <ContactSection />
+        <MapSection />
     </div>
 </template>
 <script>
@@ -19,16 +20,18 @@ import ServiceSection from './HomeSections/ServiceSection.vue';
 import GallerySection from './HomeSections/GallerySection.vue';
 import RatingSection from './HomeSections/RatingSection.vue';
 import ContactSection from './HomeSections/ContactSection.vue';
+import MapSection from './HomeSections/MapSection.vue';
 export default {
     components: {
-    HomeSection,
-    InformationSection,
-    WelcomeSection,
-    PlantSection,
-    ServiceSection,
-    GallerySection,
-    RatingSection,
-    ContactSection,
-}
+        HomeSection,
+        InformationSection,
+        WelcomeSection,
+        PlantSection,
+        ServiceSection,
+        GallerySection,
+        RatingSection,
+        ContactSection,
+        MapSection
+    }
 }
 </script>

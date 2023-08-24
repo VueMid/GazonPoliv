@@ -38,20 +38,18 @@ export default [{
         link: '',
         icon: "fas fa-chevron-right",
         isDropdownOpened: false,
-        childMenu: [
+        childMenu: [{
+                name: 'UZ',
+                link: '#',
+            },
             {
-            name: 'UZ',
-            link: '#',
-        },
+                name: 'Ru',
+                link: '#',
+            },
             {
-            name: 'Ru',
-            link: '#',
-        },
-            {
-            name: 'ENG',
-            link: '#',
-        },
-    ]
+                name: 'ENG',
+                link: '#',
+            },
+        ]
     },
-
 ]
