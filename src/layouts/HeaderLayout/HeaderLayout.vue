@@ -24,7 +24,7 @@ export default {
             this.isOpen = !this.isOpen
         }
     },
-    components: { HeaderLogo, HeaderHidden, HeaderNavbar },
+    components: { HeaderLogo, HeaderHidden, HeaderNavbar, },
 }
 </script>
 <style>

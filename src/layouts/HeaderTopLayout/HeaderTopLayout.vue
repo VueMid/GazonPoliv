@@ -27,19 +27,22 @@
                 <i class="fa-brands fa-telegram cursor-pointer" style="color: #ffffff;"></i>
                 <i class="fa-brands fa-youtube cursor-pointer" style="color: #ffffff;"></i>
             </div>
-            <button @click="toogleDark()" class="hidden md:block">
+            <!-- <button @click="toogleDark()" class="hidden md:block">
                 <i v-if="isDark" class="fa-solid fa-sun fa-xl cursor-pointer" style="color: #ffffff;"></i>
                 <i v-else class="fa-solid fa-moon fa-xl cursor-pointer " style="color: #ffffff;"></i>
-            </button>
+            </button> -->
+            <DarkMode />
         </div>
     </header>
 </template>
-<script setup>
-import { useDark, useToggle } from '@vueuse/core';
-const isDark = useDark()
-const toogleDark = useToggle(isDark);
 
+<script>
+import DarkMode from '../../MaterialUI/darkMode.vue';
+export default {
+    components: { DarkMode, }
+}
 </script>
+
 <style lang="scss">
 .header__top.dark {
     color-scheme: dark;

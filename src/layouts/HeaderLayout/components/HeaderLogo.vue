@@ -18,26 +18,31 @@
             </div>
             <div class="header__boxes">
                 <div class="mini-boxes md:flex md:flex-col">
-                    <h5 class="header__titles hidden md:block text-[15px] font-semibold leading-[18px] text-dim-gray">2008 yildan
+                    <h5 class="header__titles hidden md:block text-[15px] font-semibold leading-[18px] text-dim-gray">2008
+                        yildan
                         beri</h5>
                     <p class="header__text hidden md:block mt-1 text-sm font-normal leading-[26px] text-dim-gray">
                         faoliyat yuritamiz</p>
                 </div>
-                <button class="block md:hidden" @click="$emit('openMenu')">
-                    <i v-if="!isOpen" class="text-white fa-solid fa-bars fa-xl"></i>
-                    <i v-else class="text-white text-3xl fa-solid fa-times fa-xl"></i>
-                </button>
+                
+                <div class="flex items-center justify-center gap-3">
+                    
+                    <DarkMode />
+                    <button class="block md:hidden" @click="$emit('openMenu')">
+                        <i v-if="!isOpen" class="text-white fa-solid fa-bars fa-xl"></i>
+                        <i v-else class="text-white text-3xl fa-solid fa-times fa-xl"></i>
+                    </button>
+                </div>
             </div>
         </div>
     </div>
 </template>
 <script>
-export default {
-    data() {
-        return {
+import DarkMode from '../../../MaterialUI/darkMode.vue';
 
-        }
-    },
+// import DarkMode from '../../../MaterialUI/darkMode.vue';
+export default {
+    components: { DarkMode },
     props: {
         isOpen: {
             type: Boolean
