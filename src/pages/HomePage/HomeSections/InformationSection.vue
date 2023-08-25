@@ -1,31 +1,31 @@
 <template>
-    <section class="information">
+    <section class="information dark:bg-dim-black">
         <div
             class="container flex flex-wrap justify-center items-center md:flex md:flex-row md:justify-center md:items-center">
             <div
-                class="information__content bg-white flex flex-col justify-center items-center gap-[150px] py-[120px] md:flex md:flex-row md:justify-center md:items-center md:gap-0 md:py-[0] md:pt-[160px] md:pb-[110px] lg:flex lg:flex-row lg:justify-between lg:items-start lg:w-full px-3">
+                class="information__content  bg-white dark:bg-green-600 flex flex-col justify-center items-center gap-[150px] py-[120px] md:flex md:flex-row md:justify-center md:items-center md:gap-0 md:py-[0] md:pt-[160px] md:pb-[110px] lg:flex lg:flex-row lg:justify-between lg:items-start lg:w-full px-3">
                 <div
                     class="information__boxes w-[300px] md:w-[240px] lg:w-full flex flex-wrap justify-center items-center lg:flex lg:flex-col lg:justify-center lg:items-center">
-                    <h3 class="information__titles text-center text-[21px] font-bold">Shaxsiy maydon</h3>
-                    <p class="information__texts text-center text-base w-[340px] md:w-[180px] mt-5 lg:w-[350px]">
+                    <h3 class="information__titles text-center text-[21px] font-bold dark:text-white">Shaxsiy maydon</h3>
+                    <p class="information__texts text-center text-base w-[340px] md:w-[180px] mt-5 lg:w-[350px] dark:text-white">
                         Biz chimlarni butun mehr bilan o'stiramiz. Bizning dalalarimiz eng yaxshi parvarishlangan. Keling,
                         ishonch hosil qiling.
                     </p>
                 </div>
                 <div
                     class="information__boxes w-[300px] md:w-[240px] lg:w-full flex flex-wrap justify-center items-center lg:flex lg:flex-col lg:justify-center lg:items-center">
-                    <h3 class="information__titles text-center text-[21px] font-bold">Yevropa sifati</h3>
-                    <p class="information__texts text-center text-base w-[340px] md:w-[180px] mt-5 lg:w-[350px]">
+                    <h3 class="information__titles text-center text-[21px] font-bold dark:text-white">Yevropa sifati</h3>
+                    <p class="information__texts text-center text-base w-[340px] md:w-[180px] mt-5 lg:w-[350px] dark:text-white">
                         Barcha mahsulotlarimiz Yevropa standartlariga javob beradi. Sifat va ekologik tozalik bizning asosiy
                         tamoyillarimizdir
                     </p>
                 </div>
                 <div
                     class="information__boxes w-[300px] md:w-[240px] lg:w-full flex flex-wrap justify-center items-center lg:flex lg:flex-col lg:justify-center lg:items-center">
-                    <h3 class="information__titles text-center text-[21px] font-bold md:w-[180px] lg:w-[280px]">Arzon
+                    <h3 class="information__titles text-center text-[21px] font-bold dark:text-white md:w-[180px] lg:w-[280px]">Arzon
                         narxlar, yuqori
                         sifat</h3>
-                    <p class="information__texts text-center text-base w-[340px] md:w-[180px] mt-5 lg:w-[350px]">
+                    <p class="information__texts text-center text-base w-[340px] md:w-[180px] mt-5 lg:w-[350px] dark:text-white">
                         Yevropa sifatidagi chimning O‘zbekistonda eng yaxshi narxlari
                     </p>
                 </div>
@@ -38,6 +38,7 @@
 <style lang="scss">
 .information {
     &__content {
+        z-index: 120;
         background-color: wheat;
         box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
         background-image: url('@/assets/images/promo-shap.png');
