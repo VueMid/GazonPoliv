@@ -14,7 +14,7 @@
         </button>
       </div>
 
-      <div class="wrapper flex items-center justify-start flex-wrap gap-5 my-10">
+      <div class="wrapper flex items-center justify-center lg:justify-start flex-wrap gap-5 my-10">
 
         <!-- card -->
         <div
