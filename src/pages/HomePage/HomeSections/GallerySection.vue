@@ -30,9 +30,9 @@
               <h1 class="">{{ item.name }}</h1>
             </div>
           </div>
-          <div class="modal" v-if="isModalOpened">
-            <TheModal :info="modalData" @closeModal="closeModal" />
-          </div>
+        </div>
+        <div class="modal flex items-center justify-center" v-if="isModalOpened">
+          <TheModal :info="modalData" @closeModal="closeModal" />
         </div>
       </div>
     </div>
@@ -65,16 +65,52 @@ export default {
       ],
       galleryArray: [
         {
-          name: `Islom Sivilizatsiyasi`,
+          name: `O'zbekiston bog'i`,
+          category: 'poliv',
+          image: 'src/assets/images/samarqand.jpg',
+          desc: `Darkness dominion dominion her body creature appear make replenish. Bring shall him waters saw creepeth creepeth land divided.   \n 
+          “Each which life god all living form fruitful their fowl shed a stars he left” \n 
+          Fowl she'd a stars he let. Creepeth deep sixth you is signs creature. Earth divide great whales.`
+        },
+        {
+          name: `Islom sivilizatsiyasi`,
           category: 'gazon',
           image: 'src/assets/images/islom.jpg',
-          toModal: true,
+          desc: `Darkness dominion dominion her body creature appear make replenish. Bring shall him waters saw creepeth creepeth land divided.   \n 
+          “Each which life god all living form fruitful their fowl shed a stars he left” \n 
+          Fowl she'd a stars he let. Creepeth deep sixth you is signs creature. Earth divide great whales.`
         },
         {
           name: `Milliy bog'`,
           category: 'poliv',
           image: 'src/assets/images/milliy.png',
-          toModal: true,
+          desc: `Darkness dominion dominion her body creature appear make replenish. Bring shall him waters saw creepeth creepeth land divided.   \n 
+          “Each which life god all living form fruitful their fowl shed a stars he left” \n 
+          Fowl she'd a stars he let. Creepeth deep sixth you is signs creature. Earth divide great whales.`
+        },
+        {
+          name: `Bunyodkor stadioni`,
+          category: 'poliv',
+          image: 'src/assets/images/bunyodkor.png',
+          desc: `Darkness dominion dominion her body creature appear make replenish. Bring shall him waters saw creepeth creepeth land divided.   \n 
+          “Each which life god all living form fruitful their fowl shed a stars he left” \n 
+          Fowl she'd a stars he let. Creepeth deep sixth you is signs creature. Earth divide great whales.`
+        },
+        {
+          name: `Tashkent city`,
+          category: 'poliv',
+          image: 'src/assets/images/toshkent.png',
+          desc: `Darkness dominion dominion her body creature appear make replenish. Bring shall him waters saw creepeth creepeth land divided.   \n 
+          “Each which life god all living form fruitful their fowl shed a stars he left” \n 
+          Fowl she'd a stars he let. Creepeth deep sixth you is signs creature. Earth divide great whales.`
+        },
+        {
+          name: `Yangi O'zbekiston`,
+          category: 'poliv',
+          image: 'src/assets/images/yangi.png',
+          desc: `Darkness dominion dominion her body creature appear make replenish. Bring shall him waters saw creepeth creepeth land divided.   \n 
+          “Each which life god all living form fruitful their fowl shed a stars he left” \n 
+          Fowl she'd a stars he let. Creepeth deep sixth you is signs creature. Earth divide great whales.`
         },
       ]
     }
@@ -84,12 +120,12 @@ export default {
       this.isFiltered = name === 'barchasi' ? '' : name;
     },
     openModal(idx) {
-      this.modalData = this.galleryArray[idx];
+      this.modalData = this.galleryArray[idx], this.isModalOpened;
       this.isModalOpened = true;
     },
     closeModal() {
       this.isModalOpened = false;
-      this.modalData = null;
+      this.modalData = {};
     },
   }
 }
