@@ -3,7 +3,7 @@
         <div
             class="container contact__container w-full flex flex-wrap justify-center items-center gap-10 md:flex md:flex-row md:justify-between md:items-center">
             <form
-                class="md:w-[50%] bg-dim-black md:flex md:flex-col md:justify-center md:items-start px-[30px] py-[52px] md:px-[30px] md:py-[52px]">
+                class="w-full md:w-[50%] bg-dim-black md:flex md:flex-col md:justify-center md:items-start mx-0 px-[30px] py-[52px] md:px-[30px] md:py-[52px]">
                 <div class="contact w-full border-dim-gray/30">
                     <h2 class="contact__title font-bold text-[25px] md:text-[32px] lg:text-[32px] lg:font-bold text-white">
                         Qayta <span class="text-darker-green">aloqa</span></h2>
@@ -33,14 +33,14 @@
             <swiper :pagination="true" :modules="modules"
                 class="cursor-grab w-[350px] h-[340px] md:w-[304px] md:h-[420px] lg:w-[400px] lg:h-[350px]">
                 <swiper-slide v-for="item in 3" :key="item">
-                    <div class="contact__right lg:flex lg:flex-col lg:justify-center lg:items-start">
-                        
+                    <div class="contact__right flex flex-col justify-center items-center lg:flex lg:flex-col lg:justify-center lg:items-start">
+
                         <h3
                             class="contact__title text-[25px] md:text-[30px] md:pb-[10px] lg:text-[30px] text-dim-black  font-bold">
                             Mijoz fikri
                         </h3>
                         <p
-                            class="contact__text italic text-[15px] w-[250px] md:text-[18px] md:w-[300px] lg:w-[350px] text-dim-gray">
+                            class="contact__text text-center italic text-[15px] w-[250px] md:text-[18px] md:w-[300px] lg:w-[350px] text-dim-gray">
                             Bu yerdan maysa buyurtma qilingan. Sizning 4 gektar yeringizni etishtirish istagi katta
                             edi. Men kompaniyaning ishidan qoniqish hosil qildim. Barcha daraxtlar ehtiyotkorlik
                             bilan chetlab o'tildi, qirralari bezatilgan, bo'g'inlar deyarli sezilmadi, avtomatik

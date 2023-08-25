@@ -2,13 +2,13 @@
     <section class="information bg-white dark:bg-dim-black">
         <div
             class="container w-full pb-[100px] flex flex-wrap flex-column justify-center items-center gap-10 md:flex md:flex-row md:justify-between md:items-center md:gap-0 lg:flex lg:flex-row lg:justify-between lg:items-center lg:gap-20">
-            <div class="flex flex-col justify-center">
-                <h6 class="information__small-title text-[17px] font-semibold text-green-700">Biz haqimizda</h6>
+            <div class="flex flex-col justify-center items-center">
+                <h6 class="information__small-title text-center text-[17px] font-semibold text-green-700">Biz haqimizda</h6>
                 <h1
-                    class="information__title dark:text-white w-[300px] text-3xl font-bold mt-3 lg:text-[50px] lg:w-[400px] lg:leading-[60px]">
+                    class="information__title text-center dark:text-white w-[300px] text-3xl font-bold mt-3 lg:text-[50px] lg:w-[400px] lg:leading-[60px]">
                     Gazonpolif-ga
                     xush kelibsiz!!</h1>
-                <p class="information__text dark:text-white w-[280px] text-sm mt-6 text-dim-gray leading-6 lg:w-[480px]">
+                <p class="information__text text-center dark:text-white w-[280px] text-sm mt-6 text-dim-gray leading-6 lg:w-[480px]">
                     Gazonpolif - bu professional
                     maysazorlarni obodonlashtirish, daraxt
                     ekish, avtomatik sug'orish tizimlarini loyihalash va o'rnatish bilan
