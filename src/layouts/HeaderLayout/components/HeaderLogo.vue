@@ -37,8 +37,6 @@
 </template>
 <script>
 import DarkMode from '../../../MaterialUI/darkMode.vue';
-
-// import DarkMode from '../../../MaterialUI/darkMode.vue';
 export default {
     components: { DarkMode },
     props: {
