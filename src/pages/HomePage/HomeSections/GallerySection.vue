@@ -40,6 +40,8 @@
 
 <script>
 import TheModal from "../components/GalleryModal.vue"
+import image_1 from '../../../assets/images/samarqand.jpg'
+
 
 export default {
   components: {
@@ -66,7 +68,7 @@ export default {
         {
           name: `O'zbekiston bog'i`,
           category: 'poliv',
-          image: '../../../assets/images/samarqand.jpg',
+          image: image_1,
           desc: `Darkness dominion dominion her body creature appear make replenish. Bring shall him waters saw creepeth creepeth land divided.   \n 
           “Each which life god all living form fruitful their fowl shed a stars he left” \n 
           Fowl she'd a stars he let. Creepeth deep sixth you is signs creature. Earth divide great whales.`

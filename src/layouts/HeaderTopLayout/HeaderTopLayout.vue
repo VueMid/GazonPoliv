@@ -27,6 +27,11 @@
                 <i class="fa-brands fa-telegram cursor-pointer" style="color: #ffffff;"></i>
                 <i class="fa-brands fa-youtube cursor-pointer" style="color: #ffffff;"></i>
             </div>
+            <div class="nav__btns hidden lg:block lg:flex lg:flex-row lg:justify-center lg:items-center">
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="fa-solid fa-moon fa-xl cursor-pointer" style="color: #ffffff;"></i>
+                </div>
+            </div>
         </div>
     </header>
 </template>
