@@ -17,7 +17,8 @@
       <div class="wrapper flex items-center justify-center flex-wrap gap-5 my-10">
 
         <!-- card -->
-        <div class="card cursor-pointer w-[240px] md:w-[295px] lg:w-[350px] lg:h-[285px] overflow-hidden transition-all relative"
+        <div
+          class="card cursor-pointer w-[240px] md:w-[295px] lg:w-[350px] lg:h-[285px] overflow-hidden transition-all relative"
           v-for="(item, idx) in galleryArray" :key="item" v-show="isFiltered === '' || item.category === isFiltered"
           @click="openModal(idx)">
           <div class="image-block">
@@ -37,12 +38,9 @@
     </div>
   </section>
 </template>
-
 <script>
 import TheModal from "../components/GalleryModal.vue"
-import image_1 from '../../../assets/images/samarqand.jpg'
-
-
+import samarqand from 'src/assets/images/samarqand.jpg'
 export default {
   components: {
     TheModal
@@ -68,7 +66,7 @@ export default {
         {
           name: `O'zbekiston bog'i`,
           category: 'poliv',
-          image: image_1,
+          image: samarqand,
           desc: `Darkness dominion dominion her body creature appear make replenish. Bring shall him waters saw creepeth creepeth land divided.   \n 
           “Each which life god all living form fruitful their fowl shed a stars he left” \n 
           Fowl she'd a stars he let. Creepeth deep sixth you is signs creature. Earth divide great whales.`
