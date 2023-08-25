@@ -29,10 +29,10 @@ export default {
     mounted() {
         const winWidth = window.innerWidth
         window.addEventListener("scroll", () => {
-            if (winWidth < 768 && this.isScrolled == false) {
             window.pageYOffset > 0
-                ? (this.isScrolled = false, this.isOpen = false)
-                : (this.isScrolled = true);
+            ? (this.isScrolled = false, this.isOpen = false)
+            : (this.isScrolled = true);
+            if (winWidth < 768 && this.isScrolled == false) {
                 this.isScrolled = true
             }
         })

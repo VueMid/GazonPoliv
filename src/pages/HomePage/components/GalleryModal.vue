@@ -1,11 +1,9 @@
 <template>
   <!-- Main modal -->
   <div
-    class="fixed top-0 left-0 right-0 z-50 w-full p-4 overflow-x-hidden overflow-y-auto md:inset-0 h-full max-h-full bg-black/50 flex items-center justify-center">
+    class="fixed top-0 left-0 right-0 z-[9999] w-full p-4 overflow-x-hidden overflow-y-auto h-full max-h-full bg-black/50 flex items-center justify-center">
     <div class="relative w-full max-w-5xl max-h-full">
       <!-- Modal content -->
-
-
       <div class="relative bg-white shadow py-5 px-10">
         <button @click="$emit('closeModal')"
           class="text-gray-300 hover:text-gray-900 ml-auto flex justify-end items-center">
@@ -23,9 +21,9 @@
             </h3>
             <p class="text-base py-6 w-full leading-relaxed text-gray-500 dark:text-gray-400"
               v-html="replaceWithBr(info.desc)" />
-              <button class="bg-darker-green text-white px-9 py-4">
-                Lohiya havolasi
-              </button>
+            <button class="bg-darker-green text-white px-9 py-4">
+              Lohiya havolasi
+            </button>
           </div>
         </div>
       </div>
