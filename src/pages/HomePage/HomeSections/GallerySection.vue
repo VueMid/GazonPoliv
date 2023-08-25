@@ -40,7 +40,12 @@
 </template>
 <script>
 import TheModal from "../components/GalleryModal.vue"
-import samarqand from 'src/assets/images/samarqand.jpg'
+import samarqand from '@/assets/images/samarqand.jpg'
+import islom from '@/assets/images/islom.jpg'
+import milliy from '@/assets/images/milliy.png'
+import bunyodkor from '@/assets/images/bunyodkor.png'
+import toshkent from '@/assets/images/toshkent.png'
+import yangi from '@/assets/images/yangi.png'
 export default {
   components: {
     TheModal
@@ -74,7 +79,7 @@ export default {
         {
           name: `Islom sivilizatsiyasi`,
           category: 'gazon',
-          image: 'src/assets/images/islom.jpg',
+          image: islom,
           desc: `Darkness dominion dominion her body creature appear make replenish. Bring shall him waters saw creepeth creepeth land divided.   \n 
           “Each which life god all living form fruitful their fowl shed a stars he left” \n 
           Fowl she'd a stars he let. Creepeth deep sixth you is signs creature. Earth divide great whales.`
@@ -82,7 +87,7 @@ export default {
         {
           name: `Milliy bog'`,
           category: 'poliv',
-          image: 'src/assets/images/milliy.png',
+          image: milliy,
           desc: `Darkness dominion dominion her body creature appear make replenish. Bring shall him waters saw creepeth creepeth land divided.   \n 
           “Each which life god all living form fruitful their fowl shed a stars he left” \n 
           Fowl she'd a stars he let. Creepeth deep sixth you is signs creature. Earth divide great whales.`
@@ -90,7 +95,7 @@ export default {
         {
           name: `Bunyodkor stadioni`,
           category: 'poliv',
-          image: 'src/assets/images/bunyodkor.png',
+          image: bunyodkor,
           desc: `Darkness dominion dominion her body creature appear make replenish. Bring shall him waters saw creepeth creepeth land divided.   \n 
           “Each which life god all living form fruitful their fowl shed a stars he left” \n 
           Fowl she'd a stars he let. Creepeth deep sixth you is signs creature. Earth divide great whales.`
@@ -98,7 +103,7 @@ export default {
         {
           name: `Tashkent city`,
           category: 'poliv',
-          image: 'src/assets/images/toshkent.png',
+          image: toshkent,
           desc: `Darkness dominion dominion her body creature appear make replenish. Bring shall him waters saw creepeth creepeth land divided.   \n 
           “Each which life god all living form fruitful their fowl shed a stars he left” \n 
           Fowl she'd a stars he let. Creepeth deep sixth you is signs creature. Earth divide great whales.`
@@ -106,7 +111,7 @@ export default {
         {
           name: `Yangi O'zbekiston`,
           category: 'poliv',
-          image: 'src/assets/images/yangi.png',
+          image: yangi,
           desc: `Darkness dominion dominion her body creature appear make replenish. Bring shall him waters saw creepeth creepeth land divided.   \n 
           “Each which life god all living form fruitful their fowl shed a stars he left” \n 
           Fowl she'd a stars he let. Creepeth deep sixth you is signs creature. Earth divide great whales.`
@@ -129,7 +134,6 @@ export default {
   }
 }
 </script>
-
 <style scoped>
 .card img {
   transition: 0.3s;
