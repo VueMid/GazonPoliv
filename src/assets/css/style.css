@@ -3,10 +3,8 @@
     --secondary-color: #1E293B;
 }
 
-.dark-theme {
-    --primary-color: #1E293B;
-    --secondary-color: #FFFFFF;
-    ;
+body.dark-theme {
+    background-color: aqua;
 }
 
 ::selection {
