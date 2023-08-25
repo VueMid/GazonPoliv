@@ -66,7 +66,7 @@ export default {
         {
           name: `O'zbekiston bog'i`,
           category: 'poliv',
-          image: '/src/assets/images/samarqand.jp',
+          image: '/src/assets/images/samarqand.jpg',
           desc: `Darkness dominion dominion her body creature appear make replenish. Bring shall him waters saw creepeth creepeth land divided.   \n 
           “Each which life god all living form fruitful their fowl shed a stars he left” \n 
           Fowl she'd a stars he let. Creepeth deep sixth you is signs creature. Earth divide great whales.`
