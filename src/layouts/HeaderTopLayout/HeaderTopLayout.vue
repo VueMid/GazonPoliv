@@ -27,40 +27,9 @@
                 <i class="fa-brands fa-telegram cursor-pointer" style="color: #ffffff;"></i>
                 <i class="fa-brands fa-youtube cursor-pointer" style="color: #ffffff;"></i>
             </div>
-            <div class="nav__btns hidden lg:block lg:flex lg:flex-row lg:justify-center lg:items-center">
-                <i class="fa-solid fa-sun fa-xl cursor-pointer" id="theme-button" style="color: #ffffff;">
-                </i>
-                <div class="nav__toggle" id="nav-toggle">
-                    <i class="fa-solid fa-moon fa-xl cursor-pointer" style="color: #ffffff;"></i>
-                </div>
-            </div>
         </div>
     </header>
 </template>
-<script>
-const themeButton = document.querySelector('#theme-button');
-const darkTheme = 'dark-theme';
-const iconTheme = 'fa-moon';
-const selectedTheme = localStorage.getItem('selected-theme');
-const selectedIcon = localStorage.getItem('selected-icon');
-const getCurrentTheme = () => document.body.classList.contains(darkTheme) ? 'dark' : 'light';
-const getCurrentIcon = () => themeButton.classList.contains(iconTheme) ? 'fa-moon' : 'fa-sun';
-
-if (selectedTheme) {
-    document.body.classList[selectedTheme === 'dark' ? 'add' : 'remove'](darkTheme)
-    themeButton.classList[selectedIcon === 'fa-moon' ? 'add' : 'remove'](iconTheme)
-}
-
-themeButton.addEventListener('click', () => {
-    document.body.classList.toggle(darkTheme)
-    themeButton.classList.toggle(iconTheme)
-    localStorage.setItem('selected-theme', getCurrentTheme())
-    localStorage.setItem('selected-theme', getCurrentIcon())
-})
-
-
-
-</script>
 <style lang="scss">
 .header__top {
     font-family: 'Open Sans';

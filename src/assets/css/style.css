@@ -1,12 +1,3 @@
-:root {
-    --primary-color: #FFFFFF;
-    --secondary-color: #1E293B;
-}
-
-body.dark-theme {
-    background-color: aqua;
-}
-
 ::selection {
     background-color: green;
     color: white;
