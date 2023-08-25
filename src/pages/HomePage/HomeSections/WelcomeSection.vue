@@ -22,7 +22,7 @@
                 </p>
             </div>
             <div class="">
-                <iframe class="w-[280px] h-[195px] md:w-[400px] md:h-[280px] lg:w-[550px]"
+                <iframe class="w-[280px] h-[195px] md:w-[350px] md:h-[250px] lg:w-[550px]"
                     src="https://www.youtube.com/embed/GriE8JqpvcA" title="YouTube video player" frameborder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture;"
                     allowfullscreen>

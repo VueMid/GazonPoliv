@@ -44,11 +44,11 @@ export default [
                 link: '#',
             },
             {
-                name: 'Ru',
+                name: 'RU',
                 link: '#',
             },
             {
-                name: 'ENG',
+                name: 'EN',
                 link: '#',
             },
         ]

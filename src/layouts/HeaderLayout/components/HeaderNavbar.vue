@@ -1,4 +1,4 @@
-<template>
+ <template>
   <header class="translate-y-12 hidden md:block w-full">
     <nav class="flex items-center justify-center">
       <ul class="flex justify-center items-stretch">
@@ -10,12 +10,12 @@
               [menuArray[idx].isDropdownOpened === true ? 'rotate-90' : 'rotate-0']">
             </i>
           </router-link>
-          <ul v-if="menuArray[idx].isDropdownOpened" class="absolute z-10">
-            <li class="bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700 dark:divide-gray-600">
-              <ul class="py-2 text-sm text-gray-700 dark:text-gray-400">
+          <ul v-if="menuArray[idx].isDropdownOpened" class="absolute top-[85px] left-[-12px] z-10 px-3">
+            <li class="bg-white divide-gray-100 px-2 shadow dark:bg-white dark:divide-darker-green">
+              <ul class="py-2 text-sm text-white-700 text-white-400">
                 <li v-for="childItem in item.childMenu" :key="childItem">
                   <router-link :to="childItem.link"
-                    class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">
+                    class="block px-4 py-2 hover:bg-darker-green dark:hover:darker-green">
                     {{ childItem.name }}
                   </router-link>
                 </li>

@@ -29,10 +29,8 @@
         </div>
     </nav>
 </template>
-
 <script>
 import menuArray from '../header.js'
-
 export default {
     data() {
         return {
@@ -53,7 +51,6 @@ export default {
     }
 }
 </script>
-
 <style>
 .text {
     font-family: 'Poppins';
