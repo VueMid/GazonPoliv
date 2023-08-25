@@ -11,13 +11,13 @@
                 <img class="image w-full h-[530px] md:h-[705px] object-cover slider"
                     src="@/assets/images/banner_slider_2.png" alt="#">
                 <div
-                    class="text-content w-full flex flex-col justify-start items-start py-[90px] px-[35px] top-0 left-0 absolute md:flex md:flex-col md:justify-center md:items-start md:left-[12%] md:top-[18%] lg:left-[10%] lg:top-[15%] z-10 text-white">
+                    class="text-content w-full flex flex-col justify-center items-center py-[90px] px-[35px] top-0 left-0 absolute md:flex md:flex-col md:justify-center md:items-start md:left-[12%] md:top-[18%] lg:left-[10%] lg:top-[15%] z-10 text-white">
                     <h2
-                        class="title w-[300px] text-[35px] font-bold text-start leading-10 md:w-[600px] md:text-start md:text-[42px] md:font-bold lg:w-[600px] lg:text-[72px] lg:font-bold lg:leading-[60px]">
+                        class="title w-[300px] text-[35px] font-bold text-center leading-10 md:w-[600px] md:text-start md:text-[42px] md:font-bold lg:w-[600px] lg:text-[72px] lg:font-bold lg:leading-[60px]">
                         Parvarish qilish
                         xizmati
                     </h2>
-                    <p class="lg:mt-7 text mt-4 leading-6 text-start w-[300px] md:text-[18px] md:w-[540px]">
+                    <p class="lg:mt-7 text mt-4 leading-6 text-center w-[300px] md:text-[18px] md:w-[540px]">
                         Sifatli va hamyonbop gazon, landshaft, parvarishlash, sug'orish tizimi xizmatlari
                     </p>
                     <TheButton class="mt-10">Aloqa</TheButton>
@@ -43,13 +43,13 @@
                 <img class="image w-full h-[530px] md:h-[705px] object-cover slider  mx-auto" src="@/assets/images/uy.png"
                     alt="#">
                 <div
-                    class="text-content w-full flex flex-col justify-center items-end px-[35px] py-[80px] top-0 right-0 absolute md:flex md:flex-col md:justify-center md:items-end md:right-[10%] md:top-[18%] lg:right-[10%] lg:top-[15%] z-10 text-white lg:flex lg:flex-col lg:items-end">
+                    class="text-content w-full flex flex-col justify-center items-center px-[35px] py-[80px] top-0 right-0 absolute md:flex md:flex-col md:justify-center md:items-end md:right-[10%] md:top-[18%] lg:right-[10%] lg:top-[15%] z-10 text-white lg:flex lg:flex-col lg:items-end">
                     <h2
-                        class="title w-[300px] leading-10 text-[35px] font-bold text-end md:w-[600px] md:text-[42px] md:font-bold md:text-end lg:text-end lg:w-[600px] lg:text-[72px] lg:font-bold lg:leading-[60px]">
+                        class="title w-[300px] leading-10 text-[35px] font-bold text-center md:w-[600px] md:text-[42px] md:font-bold md:text-end lg:text-end lg:w-[600px] lg:text-[72px] lg:font-bold lg:leading-[60px]">
                         Parvarish
                         qilish xizmati
                     </h2>
-                    <p class="text mt-4 leading-6 text-end w-[300px] lg:mt-7 md:mt-7 md:w-[600px] md:text-end">
+                    <p class="text mt-4 leading-6 text-center w-[300px] lg:mt-7 md:mt-7 md:w-[600px] md:text-end">
                         Sifatli va hamyonbop gazon, landshaft, parvarishlash, sug'orish tizimi xizmatlari
                     </p>
                     <TheButton class="mt-10">Aloqa</TheButton>
