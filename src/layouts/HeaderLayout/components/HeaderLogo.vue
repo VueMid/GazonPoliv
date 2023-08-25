@@ -9,7 +9,7 @@
             class="header__icons md:flex md:flex-row md:justify-center md:items-center md:gap-20 lg:flex lg:flex-row lg:justify-center lg:items-center gap-[130px] lg:ml-auto">
             <div class="header__boxes">
                 <div class="mini-boxes md:flex md:flex-col">
-                    <h5 class="header__titles hidden md:block text-[15px] font-semibold leading-[18px]">
+                    <h5 class="header__titles hidden md:block text-[15px] font-semibold leading-[18px] text-dim-gray">
                         Sertifikatlangan kompaniya</h5>
                     <p class="header__text hidden md:block mt-1 text-sm font-normal leading-[26px] text-dim-gray">
                         10 dan ziyod sertifikatlar
@@ -18,7 +18,7 @@
             </div>
             <div class="header__boxes">
                 <div class="mini-boxes md:flex md:flex-col">
-                    <h5 class="header__titles hidden md:block text-[15px] font-semibold leading-[18px]">2008 yildan
+                    <h5 class="header__titles hidden md:block text-[15px] font-semibold leading-[18px] text-dim-gray">2008 yildan
                         beri</h5>
                     <p class="header__text hidden md:block mt-1 text-sm font-normal leading-[26px] text-dim-gray">
                         faoliyat yuritamiz</p>

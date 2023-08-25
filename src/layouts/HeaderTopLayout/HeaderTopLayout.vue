@@ -30,6 +30,9 @@
         </div>
     </header>
 </template>
+<script>
+export default {}
+</script>
 <style lang="scss">
 .header__top {
     font-family: 'Open Sans';
