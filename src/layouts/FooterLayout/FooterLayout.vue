@@ -5,9 +5,6 @@
             <FooterLogo />
             <FooterNavbar />
             <FooterCopy />
-            <a href="#" class="relative flex flex-col justify-center items-center bottom-[1140px] md:bottom-[630px]  lg:bottom-[465px]">
-                <i class="fa-solid fa-chevron-up fa-2xl" style="color: #008435;"></i>
-            </a>
         </div>
     </section>
 </template>
@@ -25,22 +22,5 @@ export default {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    position: relative;
-
-    &::before {
-        content: '';
-        top: -24px;
-        left: 0;
-        right: 0;
-        margin: 0 auto;
-        position: absolute;
-        display: inline-block;
-        width: 200px;
-        height: 30px;
-        background-image: url('../../assets/images/back-to-top.png');
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center;
-    }
 }
 </style>

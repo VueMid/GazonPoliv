@@ -10,12 +10,7 @@
 import HeaderTopLayout from './layouts/HeaderTopLayout/HeaderTopLayout.vue';
 import HeaderLayout from './layouts/HeaderLayout/HeaderLayout.vue';
 import FooterLayout from './layouts/FooterLayout/FooterLayout.vue';
-
-
 export default {
     components: { HeaderLayout, FooterLayout, HeaderTopLayout },
 }
 </script>
-
-
-<style></style>
