@@ -17,7 +17,7 @@
       <div class="wrapper flex items-center justify-center flex-wrap gap-5 my-10">
 
         <!-- card -->
-        <div class="card w-[240px] md:w-[295px] lg:w-[350px] lg:h-[285px] overflow-hidden transition-all relative"
+        <div class="card cursor-pointer w-[240px] md:w-[295px] lg:w-[350px] lg:h-[285px] overflow-hidden transition-all relative"
           v-for="(item, idx) in galleryArray" :key="item" v-show="isFiltered === '' || item.category === isFiltered"
           @click="openModal(idx)">
           <div class="image-block">
@@ -66,7 +66,7 @@ export default {
         {
           name: `O'zbekiston bog'i`,
           category: 'poliv',
-          image: './assets/images/samarqand.jpg',
+          image: 'src/assets/images/samarqand.jpg',
           desc: `Darkness dominion dominion her body creature appear make replenish. Bring shall him waters saw creepeth creepeth land divided.   \n 
           “Each which life god all living form fruitful their fowl shed a stars he left” \n 
           Fowl she'd a stars he let. Creepeth deep sixth you is signs creature. Earth divide great whales.`
@@ -74,7 +74,7 @@ export default {
         {
           name: `Islom sivilizatsiyasi`,
           category: 'gazon',
-          image: '@/assets/images/islom.jpg',
+          image: 'src/assets/images/islom.jpg',
           desc: `Darkness dominion dominion her body creature appear make replenish. Bring shall him waters saw creepeth creepeth land divided.   \n 
           “Each which life god all living form fruitful their fowl shed a stars he left” \n 
           Fowl she'd a stars he let. Creepeth deep sixth you is signs creature. Earth divide great whales.`
@@ -82,7 +82,7 @@ export default {
         {
           name: `Milliy bog'`,
           category: 'poliv',
-          image: './assets/images/milliy.png',
+          image: 'src/assets/images/milliy.png',
           desc: `Darkness dominion dominion her body creature appear make replenish. Bring shall him waters saw creepeth creepeth land divided.   \n 
           “Each which life god all living form fruitful their fowl shed a stars he left” \n 
           Fowl she'd a stars he let. Creepeth deep sixth you is signs creature. Earth divide great whales.`
@@ -90,7 +90,7 @@ export default {
         {
           name: `Bunyodkor stadioni`,
           category: 'poliv',
-          image: './assets/images/bunyodkor.png',
+          image: 'src/assets/images/bunyodkor.png',
           desc: `Darkness dominion dominion her body creature appear make replenish. Bring shall him waters saw creepeth creepeth land divided.   \n 
           “Each which life god all living form fruitful their fowl shed a stars he left” \n 
           Fowl she'd a stars he let. Creepeth deep sixth you is signs creature. Earth divide great whales.`
@@ -98,7 +98,7 @@ export default {
         {
           name: `Tashkent city`,
           category: 'poliv',
-          image: './assets/images/toshkent.png',
+          image: 'src/assets/images/toshkent.png',
           desc: `Darkness dominion dominion her body creature appear make replenish. Bring shall him waters saw creepeth creepeth land divided.   \n 
           “Each which life god all living form fruitful their fowl shed a stars he left” \n 
           Fowl she'd a stars he let. Creepeth deep sixth you is signs creature. Earth divide great whales.`
@@ -106,7 +106,7 @@ export default {
         {
           name: `Yangi O'zbekiston`,
           category: 'poliv',
-          image: './assets/images/yangi.png',
+          image: 'src/assets/images/yangi.png',
           desc: `Darkness dominion dominion her body creature appear make replenish. Bring shall him waters saw creepeth creepeth land divided.   \n 
           “Each which life god all living form fruitful their fowl shed a stars he left” \n 
           Fowl she'd a stars he let. Creepeth deep sixth you is signs creature. Earth divide great whales.`
