@@ -6,7 +6,7 @@
         <h1 class="text-2xl lg:text-5xl my-3 text-darker-green dark:text-white">So'nggi ishlarimiz</h1>
       </div>
 
-      <div class="btns flex items-center justify-center gap-5 text-white">
+      <div class="btns flex items-center justify-center gap-5 text-black dark:text-white">
         <button v-for="item in categoryArray" :key="item" :value="item.text" @click="filterCards(item.text)"
           class="btn flex items-center text-lg capitalize"
           :class="{ 'text-green-700': isFiltered === '' || item.text === isFiltered }">
@@ -14,7 +14,7 @@
         </button>
       </div>
 
-      <div class="wrapper flex items-center justify-center flex-wrap gap-5 my-10">
+      <div class="wrapper flex items-center justify-start flex-wrap gap-5 my-10">
 
         <!-- card -->
         <div
@@ -70,7 +70,7 @@ export default {
       galleryArray: [
         {
           name: `O'zbekiston bog'i`,
-          category: 'poliv',
+          category: 'gazon',
           image: samarqand,
           desc: `Darkness dominion dominion her body creature appear make replenish. Bring shall him waters saw creepeth creepeth land divided.   \n 
           “Each which life god all living form fruitful their fowl shed a stars he left” \n 
@@ -78,7 +78,7 @@ export default {
         },
         {
           name: `Islom sivilizatsiyasi`,
-          category: 'gazon',
+          category: 'poliv',
           image: islom,
           desc: `Darkness dominion dominion her body creature appear make replenish. Bring shall him waters saw creepeth creepeth land divided.   \n 
           “Each which life god all living form fruitful their fowl shed a stars he left” \n 
@@ -86,7 +86,7 @@ export default {
         },
         {
           name: `Milliy bog'`,
-          category: 'poliv',
+          category: 'gazon',
           image: milliy,
           desc: `Darkness dominion dominion her body creature appear make replenish. Bring shall him waters saw creepeth creepeth land divided.   \n 
           “Each which life god all living form fruitful their fowl shed a stars he left” \n 
@@ -94,7 +94,7 @@ export default {
         },
         {
           name: `Bunyodkor stadioni`,
-          category: 'poliv',
+          category: 'gazon',
           image: bunyodkor,
           desc: `Darkness dominion dominion her body creature appear make replenish. Bring shall him waters saw creepeth creepeth land divided.   \n 
           “Each which life god all living form fruitful their fowl shed a stars he left” \n 
@@ -110,7 +110,7 @@ export default {
         },
         {
           name: `Yangi O'zbekiston`,
-          category: 'poliv',
+          category: 'gazon',
           image: yangi,
           desc: `Darkness dominion dominion her body creature appear make replenish. Bring shall him waters saw creepeth creepeth land divided.   \n 
           “Each which life god all living form fruitful their fowl shed a stars he left” \n 

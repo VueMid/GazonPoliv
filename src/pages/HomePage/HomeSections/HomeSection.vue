@@ -1,5 +1,5 @@
 <template>
-    <section class="home">
+    <section class="home pt-16">
         <swiper :effect="'fade'" :loop="true" :slides-per-view="1" :centeredSlides="true" :navigation="{
             prevEl: '.fa-chevron-left',
             nextEl: '.fa-chevron-right',
