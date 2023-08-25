@@ -6,7 +6,7 @@
         <h1 class="text-2xl lg:text-5xl my-3 text-darker-green dark:text-white">So'nggi ishlarimiz</h1>
       </div>
 
-      <div class="btns flex items-center justify-center gap-5 text-white">
+      <div class="btns flex items-center justify-center gap-5 text-black dark:text-white">
         <button v-for="item in categoryArray" :key="item" :value="item.text" @click="filterCards(item.text)"
           class="btn flex items-center text-lg capitalize"
           :class="{ 'text-green-700': isFiltered === '' || item.text === isFiltered }">
