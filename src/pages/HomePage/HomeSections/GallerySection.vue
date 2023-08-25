@@ -14,7 +14,7 @@
         </button>
       </div>
 
-      <div class="wrapper flex items-center justify-start flex-wrap gap-5 my-10">
+      <div class="wrapper flex items-center justify-center lg:justify-start flex-wrap gap-5 my-10">
 
         <!-- card -->
         <div
@@ -131,6 +131,16 @@ export default {
       this.isModalOpened = false;
       this.modalData = {};
     },
+  },
+  mounted() {
+    window.addEventListener("scroll", () => {
+      window.pageYOffset > 0
+        ? (this.isModalOpened = false)
+        : (this.isModalOpened = true);
+      // if (winWidth < 768 && this.isScrolled == false) {
+      //   this.isScrolled = true
+      // }
+    })
   }
 }
 </script>
