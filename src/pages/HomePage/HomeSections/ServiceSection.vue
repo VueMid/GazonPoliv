@@ -1,5 +1,5 @@
 <template>
-    <section class="service">
+    <section class="service dark:bg-tailwind-dark">
         <div class="container service__container flex flex-col justify-center items-center py-16 md:flex">
             <div class="service__top-box flex flex-col justify-center items-center">
                 <p class="service__text text-[17px] text-darker-green font-bold">

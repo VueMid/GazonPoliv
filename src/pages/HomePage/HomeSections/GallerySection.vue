@@ -1,12 +1,12 @@
 <template>
-  <section>
+  <section class="gallery dark:bg-dim-black">
     <div class="container py-10 block">
       <div class="titles text-center">
-        <h3 class="text-md lg:text-xl">Bizning loyihalaramiz</h3>
-        <h1 class="text-2xl lg:text-5xl my-3 text-darker-green">So'nggi ishlarimiz</h1>
+        <h3 class="text-md lg:text-xl dark:text-white">Bizning loyihalaramiz</h3>
+        <h1 class="text-2xl lg:text-5xl my-3 text-darker-green dark:text-white">So'nggi ishlarimiz</h1>
       </div>
 
-      <div class="btns flex items-center justify-center gap-5">
+      <div class="btns flex items-center justify-center gap-5 text-white">
         <button v-for="item in categoryArray" :key="item" :value="item.text" @click="filterCards(item.text)"
           class="btn flex items-center text-lg capitalize"
           :class="{ 'text-green-700': isFiltered === '' || item.text === isFiltered }">

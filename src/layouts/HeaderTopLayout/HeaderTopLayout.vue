@@ -1,5 +1,5 @@
 <template>
-    <header class="header__top hidden md:block bg-darker-green dark:bg-red-700 w-full">
+    <header class="header__top hidden md:block bg-darker-green w-full">
         <div
             class="container md:py-3 md:px-16  md:flex md:flex-row md:justify-between md:items-center lg:flex lg:flex-row lg:justify-between lg:items-center lg:px-12 lg:py-0">
             <div
@@ -27,10 +27,6 @@
                 <i class="fa-brands fa-telegram cursor-pointer" style="color: #ffffff;"></i>
                 <i class="fa-brands fa-youtube cursor-pointer" style="color: #ffffff;"></i>
             </div>
-            <!-- <button @click="toogleDark()" class="hidden md:block">
-                <i v-if="isDark" class="fa-solid fa-sun fa-xl cursor-pointer" style="color: #ffffff;"></i>
-                <i v-else class="fa-solid fa-moon fa-xl cursor-pointer " style="color: #ffffff;"></i>
-            </button> -->
             <DarkMode />
         </div>
     </header>

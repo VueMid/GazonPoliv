@@ -1,5 +1,5 @@
 <template>
-    <header class="header bg-darker-green md:bg-white dark:bg-sky-600 relative z-[9999]">
+    <header class="header bg-darker-green md:bg-white dark:bg-dim-black relative z-[9999]">
         <div class="container py-[11px] md:pt-[34px] lg:px-6 lg:pt-[34px]">
             <HeaderLogo @openMenu='toggleMenu' :isOpen="isOpen" />
             <HeaderNavbar />

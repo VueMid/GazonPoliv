@@ -9,26 +9,24 @@
             class="header__icons md:flex md:flex-row md:justify-center md:items-center md:gap-20 lg:flex lg:flex-row lg:justify-center lg:items-center gap-[130px] lg:ml-auto">
             <div class="header__boxes">
                 <div class="mini-boxes md:flex md:flex-col">
-                    <h5 class="header__titles hidden md:block text-[15px] font-semibold leading-[18px] text-dim-gray">
+                    <h5 class="header__titles hidden md:block text-[15px] font-semibold leading-[18px] text-dim-black dark:text-white">
                         Sertifikatlangan kompaniya</h5>
-                    <p class="header__text hidden md:block mt-1 text-sm font-normal leading-[26px] text-dim-gray">
+                    <p class="header__text hidden md:block mt-1 text-sm font-normal leading-[26px] text-dim-gray dark:text-white">
                         10 dan ziyod sertifikatlar
                     </p>
                 </div>
             </div>
             <div class="header__boxes">
                 <div class="mini-boxes md:flex md:flex-col">
-                    <h5 class="header__titles hidden md:block text-[15px] font-semibold leading-[18px] text-dim-gray">2008
-                        yildan
+                    <h5 class="header__titles hidden md:block text-[15px] font-semibold leading-[18px] text-dim-black dark:text-white">2008 yildan
                         beri</h5>
-                    <p class="header__text hidden md:block mt-1 text-sm font-normal leading-[26px] text-dim-gray">
+                    <p class="header__text hidden md:block mt-1 text-sm font-normal leading-[26px] text-dim-gray dark:text-white">
                         faoliyat yuritamiz</p>
                 </div>
                 
-                <div class="flex items-center justify-center gap-3">
-                    
+                <div class="flex md:hidden items-center justify-center gap-3">
                     <DarkMode />
-                    <button class="block md:hidden" @click="$emit('openMenu')">
+                    <button @click="$emit('openMenu')">
                         <i v-if="!isOpen" class="text-white fa-solid fa-bars fa-xl"></i>
                         <i v-else class="text-white text-3xl fa-solid fa-times fa-xl"></i>
                     </button>
