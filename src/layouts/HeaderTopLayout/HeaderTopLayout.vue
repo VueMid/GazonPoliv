@@ -1,5 +1,5 @@
 <template>
-    <header class="header__top hidden md:block bg-darker-green w-full">
+    <header class="header__top hidden md:block bg-darker-green dark:bg-red-700 w-full">
         <div
             class="container md:py-3 md:px-16  md:flex md:flex-row md:justify-between md:items-center lg:flex lg:flex-row lg:justify-between lg:items-center lg:px-12 lg:py-0">
             <div
@@ -21,21 +21,30 @@
                 </div>
             </div>
             <div
-                class="header__top-boxes md:flex md:flex-row md:justify-center md:items-center md:gap-6 lg:flex lg:flex-row lg:justify-center lg:items-center lg:gap-7 lg:ml-auto lg:mr-[50px]">
+                class="header__top-boxes md:flex md:flex-row md:justify-center md:items-center md:gap-6 lg:flex lg:flex-row lg:justify-center lg:items-center lg:gap-7 md:ml-auto md:mr-[30px]">
                 <i class="fa-brands fa-facebook-f cursor-pointer" style="color: #ffffff;"></i>
                 <i class="fa-brands fa-instagram cursor-pointer" style="color: #ffffff;"></i>
                 <i class="fa-brands fa-telegram cursor-pointer" style="color: #ffffff;"></i>
                 <i class="fa-brands fa-youtube cursor-pointer" style="color: #ffffff;"></i>
             </div>
-            <div class="nav__btns hidden lg:block lg:flex lg:flex-row lg:justify-center lg:items-center">
-                <div class="nav__toggle" id="nav-toggle">
-                    <i class="fa-solid fa-moon fa-xl cursor-pointer" style="color: #ffffff;"></i>
-                </div>
-            </div>
+            <button @click="toogleDark()" class="hidden md:block">
+                <i v-if="isDark" class="fa-solid fa-sun fa-xl cursor-pointer" style="color: #ffffff;"></i>
+                <i v-else class="fa-solid fa-moon fa-xl cursor-pointer " style="color: #ffffff;"></i>
+            </button>
         </div>
     </header>
 </template>
+<script setup>
+import { useDark, useToggle } from '@vueuse/core';
+const isDark = useDark()
+const toogleDark = useToggle(isDark);
+
+</script>
 <style lang="scss">
+.header__top.dark {
+    color-scheme: dark;
+}
+
 .header__top {
     font-family: 'Open Sans';
 }

@@ -1,5 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 export default {
+  darkMode: 'class',
   content: [
     "./index.html",
     "./src/**/*.{js,ts,jsx,tsx,vue}",
@@ -14,7 +15,8 @@ export default {
         'dim-black': '#282828',
         'light green': '#148E45',
         'dim-gray': '#6D6D6D',
-        'lighter-green': '#004B1E'
+        'lighter-green': '#004B1E',
+        'tailwind-dark': '#1E293B',
       }
     },
     container: {

@@ -1,5 +1,5 @@
 <template>
-    <section class="contact">
+    <section class="contact dark:bg-tailwind-dark">
         <div
             class="container contact__container w-full flex flex-wrap justify-center items-center gap-10 md:flex md:flex-row md:justify-between md:items-center">
             <form
@@ -36,7 +36,7 @@
                     <div class="contact__right lg:flex lg:flex-col lg:justify-center lg:items-start">
                         
                         <h3
-                            class="contact__title text-[25px] md:text-[30px] md:pb-[5px] lg:text-[30px] text-dim-black font-bold">
+                            class="contact__title text-[25px] md:text-[30px] md:pb-[10px] lg:text-[30px] text-dim-black dark:text-white font-bold">
                             Mijoz fikri
                         </h3>
                         <p
