@@ -25,7 +25,7 @@
         </li>
         <li
           class="hidden px-2 py-0 bg-dim-black text-white text-lg lg:flex lg:flex-row lg:items-center lg:justify-center lg:gap-5">
-          <i class="fa-solid fa-phone-volume fa-shake"></i>
+          <i class="fa-solid fa-phone-volume"></i>
           +998 33 995 75 65
         </li>
       </ul>
