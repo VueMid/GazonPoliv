@@ -5,7 +5,7 @@
             <FooterLogo />
             <FooterNavbar />
             <FooterCopy />
-            <a href="#" class="relative flex flex-col justify-center items-center bottom-[1143px] md:bottom-[630px]  lg:bottom-[465px]">
+            <a href="#" class="relative flex flex-col justify-center items-center bottom-[1140px] md:bottom-[630px]  lg:bottom-[465px]">
                 <i class="fa-solid fa-chevron-up fa-2xl" style="color: #008435;"></i>
             </a>
         </div>
