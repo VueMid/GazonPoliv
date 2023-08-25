@@ -1,7 +1,7 @@
 <template>
     <section class="plant bg-green-700">
         <div
-            class="container plant__container py-16 lg:py-24 flex flex-col justify-center items-start gap-16 md:flex md:flex-wrap md:justify-between md:items-center md:gap-0 md:w-[390px] lg:gap-[100px]">
+            class="container plant__container py-16 lg:py-24 flex flex-col justify-center items-start gap-16 md:flex md:flex-wrap md:justify-between md:items-center md:gap-0 md:w-[390px] lg:gap-[100px] lg:w-auto">
             <div
                 class="plant__boxes w-full md:flex md:flex-row md:justify-center md:items-center gap-16 lg:flex lg:flex-row lg:justify-between lg:items-center lg:gap-30">
                 <img class="plant__images md:w-[350px] lg:w-[500px]" src="@/assets/images/gazon.png" alt="">
