@@ -1,5 +1,4 @@
-export default [
-    {
+export default [{
         name: 'Biz haqimizda',
         link: ''
     },
@@ -40,10 +39,6 @@ export default [
         icon: "fas fa-chevron-right",
         isDropdownOpened: false,
         childMenu: [{
-                name: 'UZ',
-                link: '#',
-            },
-            {
                 name: 'RU',
                 link: '#',
             },
