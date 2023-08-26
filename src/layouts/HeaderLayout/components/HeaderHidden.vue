@@ -44,7 +44,7 @@ export default {
 			if (idx === 1) {
 				this.menuArray[idx].isDropdownOpened = !this.menuArray[idx].isDropdownOpened;
 			}
-			if (idx === 6) {
+			if (idx === 5) {
 				this.menuArray[idx].isDropdownOpened = !this.menuArray[idx].isDropdownOpened;
 			}
 		},
