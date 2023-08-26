@@ -26,10 +26,6 @@ export default [{
         link: ''
     },
     {
-        name: 'Sharhlar',
-        link: ''
-    },
-    {
         name: 'Tajriba',
         link: ''
     },
