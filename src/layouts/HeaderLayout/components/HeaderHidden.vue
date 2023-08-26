@@ -1,6 +1,6 @@
 <template>
-	<nav class="w-full md:hidden px-[0px] z-[999] bg-dim-black h-full p-[31px]">
-		<div class="w-full h-full overflow-y-hidden md:block md:w-auto">
+	<nav class="w-full md:hidden px-[0px] z-[999] bg-dim-black h-full p-[60px]">
+		<div class="w-full md:block md:w-auto">
 			<ul class="pt-4 flex flex-col font-medium p-4 mt-4 px-[0px]">
 				<li v-for="(item, idx) in menuArray" :key="item" @click="openDropdown(idx)">
 					<router-link :to="item.link"
