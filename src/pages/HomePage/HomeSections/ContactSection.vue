@@ -1,9 +1,9 @@
 <template>
     <section class="contact">
-        <div
-            class="container contact__container w-full flex flex-wrap justify-center items-center gap-10 md:flex md:flex-row md:justify-between md:items-center">
+        <div class="container contact__container w-full flex flex-wrap justify-center items-center gap-10 md:flex md:flex-row md:justify-center md:items-center md:gap-20 
+        lg:flex lg:flex-row lg:justify-center lg:items-center lg:gap-0">
             <form
-                class="w-full md:w-[50%] bg-dim-black md:flex md:flex-col md:justify-center md:items-start mx-0 px-[30px] py-[52px] md:px-[30px] md:py-[52px]">
+                class="w-full md:w-[45%] bg-dim-black md:flex md:flex-col md:justify-center md:items-start mx-0 px-[30px] py-[52px] md:px-[40px] md:py-[52px] lg:px-[90px] lg:py-[52px]">
                 <div class="contact w-full border-dim-gray/30">
                     <h2 class="contact__title font-bold text-[25px] md:text-[32px] lg:text-[32px] lg:font-bold text-white">
                         Qayta <span class="text-darker-green">aloqa</span></h2>
@@ -31,16 +31,17 @@
                     class="contact__button active:bg-white active:text-darker-green transition-all duration-75 bg-darker-green text-white py-3 px-6 mt-6">Yuborish</button>
             </form>
             <swiper :pagination="true" :modules="modules"
-                class="cursor-grab w-[350px] h-[340px] md:w-[304px] md:h-[420px] lg:w-[400px] lg:h-[350px]">
+                class="cursor-grab w-[350px] h-[340px] md:w-[324px] md:h-[470px] lg:w-[500px] lg:h-[400px]">
                 <swiper-slide v-for="item in 3" :key="item">
-                    <div class="contact__right flex flex-col justify-center items-center lg:flex lg:flex-col lg:justify-center lg:items-start">
+                    <div
+                        class="contact__right flex flex-col justify-center items-start lg:flex lg:flex-col lg:justify-center lg:items-start md:pt-20">
 
                         <h3
-                            class="contact__title text-[25px] md:text-[30px] md:pb-[10px] lg:text-[30px] text-dim-black  font-bold">
+                            class="contact__title text-start text-[25px] md:text-[30px] md:pb-[10px] lg:text-[30px] text-dim-black  font-bold">
                             Mijoz fikri
                         </h3>
                         <p
-                            class="contact__text text-center italic text-[15px] w-[250px] md:text-[18px] md:w-[300px] lg:w-[350px] text-dim-gray">
+                            class="contact__text text-start italic text-[15px] w-[250px] md:text-[18px] md:w-[300px] lg:w-[450px] text-dim-gray">
                             Bu yerdan maysa buyurtma qilingan. Sizning 4 gektar yeringizni etishtirish istagi katta
                             edi. Men kompaniyaning ishidan qoniqish hosil qildim. Barcha daraxtlar ehtiyotkorlik
                             bilan chetlab o'tildi, qirralari bezatilgan, bo'g'inlar deyarli sezilmadi, avtomatik

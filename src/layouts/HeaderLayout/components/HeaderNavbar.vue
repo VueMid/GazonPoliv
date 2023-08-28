@@ -1,5 +1,5 @@
  <template>
-  <header class="translate-y-12 hidden md:block w-full">
+  <header class="translate-y-9 hidden md:block w-full">
     <nav class="flex items-center justify-center">
       <ul class="flex justify-center items-stretch">
         <li v-for="(item, idx) in menuArray" :key="item" @click="openDropdown(idx)"
@@ -25,7 +25,7 @@
         </li>
         <li
           class="hidden px-2 py-0 bg-dim-black text-white text-lg lg:flex lg:flex-row lg:items-center lg:justify-center lg:gap-5">
-          <i class="fa-solid fa-phone-volume fa-shake"></i>
+          <i class="fa-solid fa-phone-volume"></i>
           +998 33 995 75 65
         </li>
       </ul>
@@ -45,7 +45,7 @@ export default {
       if (idx === 1) {
         this.menuArray[idx].isDropdownOpened = !this.menuArray[idx].isDropdownOpened;
       }
-      if (idx === 6) {
+      if (idx === 5) {
         this.menuArray[idx].isDropdownOpened = !this.menuArray[idx].isDropdownOpened;
       }
     },

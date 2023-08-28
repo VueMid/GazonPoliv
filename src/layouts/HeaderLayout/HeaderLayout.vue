@@ -1,6 +1,6 @@
 <template>
     <header class="header bg-darker-green md:bg-white dark:bg-dim-black fixed md:absolute w-full z-[9999]">
-        <div class="container py-[11px] md:pt-[34px] lg:px-6 lg:pt-[34px]">
+        <div class="container py-[11px] md:pt-[34px] lg:px-6 lg:py-[0px] lg:pt-[34px]">
             <HeaderLogo @openMenu='toggleMenu' :isOpen="isOpen" />
             <HeaderNavbar v-if="isScrolled" />
         </div>
@@ -26,17 +26,17 @@ export default {
         },
     },
     components: { HeaderLogo, HeaderHidden, HeaderNavbar, },
-    mounted() {
-        const winWidth = window.innerWidth
-        window.addEventListener("scroll", () => {
-            window.pageYOffset > 0
-            ? (this.isScrolled = false, this.isOpen = false)
-            : (this.isScrolled = true);
-            if (winWidth < 768 && this.isScrolled == false) {
-                this.isScrolled = true
-            }
-        })
-    }
+    // mounted() {
+    //     const winWidth = window.innerWidth
+    //     window.addEventListener("scroll", () => {
+    //         window.pageYOffset > 0
+    //             ? (this.isScrolled = false, this.isOpen = false)
+    //             : (this.isScrolled = true);
+    //         if (winWidth < 768 && this.isScrolled == false) {
+    //             this.isScrolled = true
+    //         }
+    //     })
+    // }
 }
 </script>
 <style>

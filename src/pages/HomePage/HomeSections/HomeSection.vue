@@ -11,45 +11,44 @@
                 <img class="image w-full h-[530px] md:h-[705px] object-cover slider"
                     src="@/assets/images/banner_slider_2.png" alt="#">
                 <div
-                    class="text-content w-full flex flex-col justify-center items-center py-[90px] px-[35px] top-0 left-0 absolute md:flex md:flex-col md:justify-center md:items-start md:left-[12%] md:top-[18%] lg:left-[10%] lg:top-[15%] z-10 text-white">
+                    class="text-content w-full flex flex-col justify-center items-center py-[90px] px-[35px] top-0 left-0 absolute md:flex md:flex-col md:justify-center md:items-center md:left-[0%] md:top-[18%] lg:left-[0%] lg:right-0 lg:mx-0 lg:pl-[0px] lg:top-[15%] z-10 text-white">
                     <h2
-                        class="title w-[300px] text-[35px] font-bold text-center leading-10 md:w-[600px] md:text-start md:text-[42px] md:font-bold lg:w-[600px] lg:text-[72px] lg:font-bold lg:leading-[60px]">
+                        class="title w-[300px] text-[35px] font-bold text-center leading-10 md:w-[600px] md:text-center md:text-[42px] md:font-bold lg:w-[600px] lg:text-[72px] lg:font-bold lg:leading-[60px]">
                         Parvarish qilish
                         xizmati
                     </h2>
-                    <p class="lg:mt-7 text mt-4 leading-6 text-center w-[300px] md:text-[18px] md:w-[540px]">
+                    <p class="lg:mt-7 text mt-4 leading-6 text-center w-[300px] md:text-[18px] md:w-[540px] md:text-center">
                         Sifatli va hamyonbop gazon, landshaft, parvarishlash, sug'orish tizimi xizmatlari
                     </p>
                     <TheButton class="mt-10">Aloqa</TheButton>
                 </div>
             </swiper-slide>
             <swiper-slide class="relative">
-                <img class="image w-full h-[530px] md:h-[705px] object-cover slider mx-auto" src="@/assets/images/plant.png"
-                    alt="#">
+                <img class="image w-full h-[530px] md:h-[705px] object-cover slider" src="@/assets/images/uy.png" alt="#">
                 <div
-                    class="text-content leading-10 w-full sm:w-auto mx-auto flex flex-col justify-center items-center absolute py-[85px] px-[0px] top-0 left-0 md:top-[18%] md:left-[13%] lg:top-[15%] z-10 text-white lg:left-[18%] ">
+                    class="text-content w-full flex flex-col justify-center items-center py-[90px] px-[35px] top-0 left-0 absolute md:flex md:flex-col md:justify-center md:items-center md:left-[0%] md:top-[18%] lg:left-[0%] lg:right-0 lg:mx-0 lg:pl-[0px] lg:top-[15%] z-10 text-white">
                     <h2
-                        class="title  w-[300px] text-[35px] font-bold leading-10 text-center md:w-[600px] md:text-center md:text-[42px] md:font-bold lg:w-[886px] lg:text-[72px] lg:font-bold lg:leading-[60px]">
-                        Parvarish
-                        qilish xizmati
+                        class="title w-[300px] text-[35px] font-bold text-center leading-10 md:w-[600px] md:text-center md:text-[42px] md:font-bold lg:w-[600px] lg:text-[72px] lg:font-bold lg:leading-[60px]">
+                        Parvarish qilish
+                        xizmati
                     </h2>
-                    <p class="text mt-4 leading-6 text-center w-[300px] md:mt-7 lg:mt-7 md:w-[600px] md:text-center">
-                        Sifatli va hamyonbop gazon, landsha2t, parvarishlash, sug'orish tizimi xizmatlari
+                    <p class="lg:mt-7 text mt-4 leading-6 text-center w-[300px] md:text-[18px] md:w-[540px] md:text-center">
+                        Sifatli va hamyonbop gazon, landshaft, parvarishlash, sug'orish tizimi xizmatlari
                     </p>
                     <TheButton class="mt-10">Aloqa</TheButton>
                 </div>
             </swiper-slide>
             <swiper-slide class="relative">
-                <img class="image w-full h-[530px] md:h-[705px] object-cover slider  mx-auto" src="@/assets/images/uy.png"
+                <img class="image w-full h-[530px] md:h-[705px] object-cover slider" src="@/assets/images/plant.png"
                     alt="#">
                 <div
-                    class="text-content w-full flex flex-col justify-center items-center px-[35px] py-[80px] top-0 right-0 absolute md:flex md:flex-col md:justify-center md:items-end md:right-[10%] md:top-[18%] lg:right-[10%] lg:top-[15%] z-10 text-white lg:flex lg:flex-col lg:items-end">
+                    class="text-content w-full flex flex-col justify-center items-center py-[90px] px-[35px] top-0 left-0 absolute md:flex md:flex-col md:justify-center md:items-center md:left-[0%] md:top-[18%] lg:left-[0%] lg:right-0 lg:mx-0 lg:pl-[0px] lg:top-[15%] z-10 text-white">
                     <h2
-                        class="title w-[300px] leading-10 text-[35px] font-bold text-center md:w-[600px] md:text-[42px] md:font-bold md:text-end lg:text-end lg:w-[600px] lg:text-[72px] lg:font-bold lg:leading-[60px]">
-                        Parvarish
-                        qilish xizmati
+                        class="title w-[300px] text-[35px] font-bold text-center leading-10 md:w-[600px] md:text-center md:text-[42px] md:font-bold lg:w-[600px] lg:text-[72px] lg:font-bold lg:leading-[60px]">
+                        Parvarish qilish
+                        xizmati
                     </h2>
-                    <p class="text mt-4 leading-6 text-center w-[300px] lg:mt-7 md:mt-7 md:w-[600px] md:text-end">
+                    <p class="lg:mt-7 text mt-4 leading-6 text-center w-[300px] md:text-[18px] md:w-[540px] md:text-center">
                         Sifatli va hamyonbop gazon, landshaft, parvarishlash, sug'orish tizimi xizmatlari
                     </p>
                     <TheButton class="mt-10">Aloqa</TheButton>
@@ -64,6 +63,7 @@
                 </i>
             </div>
         </swiper>
+
     </section>
 </template>
 <script>
@@ -87,6 +87,13 @@ export default {
 };
 </script>
 <style scoped>
+.text-content {
+    display: flex;
+    flex-direction: column !important;
+    justify-content: center !important;
+    align-items: center !important;
+}
+
 .swiper-slide::after {
     cursor: grab;
     content: '';

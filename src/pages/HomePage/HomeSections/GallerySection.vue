@@ -2,10 +2,11 @@
   <section class="gallery dark:bg-dim-black">
     <div class="container py-10 block">
       <div class="titles text-center">
-        <h3 class="text-md lg:text-xl dark:text-white">Bizning loyihalaramiz</h3>
-        <h1 class="text-2xl lg:text-5xl my-3 text-darker-green dark:text-white">So'nggi ishlarimiz</h1>
+        <h3 class="gallery__title lg:text-xl dark:text-white font-semibold text-darker-green">Bizning
+          loyihalaramiz</h3>
+        <h1 class="gallery__title text-2xl lg:text-5xl my-3 font-bold text-black dark:text-white">So'ngi
+          ishlarimiz</h1>
       </div>
-
       <div class="btns flex items-center justify-center gap-5 text-black dark:text-white">
         <button v-for="item in categoryArray" :key="item" :value="item.text" @click="filterCards(item.text)"
           class="btn flex items-center text-lg capitalize"
@@ -13,8 +14,7 @@
           {{ item.text }}
         </button>
       </div>
-
-      <div class="wrapper flex items-center justify-center lg:justify-start flex-wrap gap-5 my-10">
+      <div class="wrapper flex items-center justify-center lg:justify-center flex-wrap gap-5 my-10">
 
         <!-- card -->
         <div
@@ -22,7 +22,7 @@
           v-for="(item, idx) in galleryArray" :key="item" v-show="isFiltered === '' || item.category === isFiltered"
           @click="openModal(idx)">
           <div class="image-block">
-            <img :src="item.image" alt="#" class="w-full h-full">
+            <img :src="item.image" alt="#" class="images]">
           </div>
           <div class="bottom text-white flex items-end absolute left-0 bottom-0 z-10 w-full">
             <div class="icon w-[85px] h-[65px] bg-green-900"></div>
@@ -146,6 +146,15 @@ export default {
 }
 </script>
 <style scoped>
+.text {
+  font-size: 17px;
+  font-weight: 700;
+}
+
+.gallery__title {
+  font-family: 'poppins';
+}
+
 .card img {
   transition: 0.3s;
 }
