@@ -136,8 +136,8 @@ export default {
     window.addEventListener("scroll", () => {
       console.log();
       // window.pageYOffset > 0
-    //     ? (this.isModalOpened = false)
-    //     : (this.isModalOpened = true);
+      //     ? (this.isModalOpened = false)
+      //     : (this.isModalOpened = true);
       // if (winWidth < 768 && this.isScrolled == false) {
       //   this.isScrolled = true
       // }

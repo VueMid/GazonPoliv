@@ -1,7 +1,7 @@
 <template>
     <section class="footer w-full">
         <div
-            class="container footer__container flex flex-wrap justify-center items-start gap-10 py-16 md:flex md:flex-col md:justify-center md:items-center md:gap-10 lg:flex lg:flex-row lg:justify-center lg:items-start lg:py-0 lg:pt-20 lg:pb-5">
+            class="container footer__container px-3 flex flex-wrap flex-col justify-center items-start gap-10 py-16 md:flex md:flex-col md:justify-center md:items-center md:gap-10 lg:flex lg:flex-row lg:justify-center lg:items-start lg:py-0 lg:pt-20 lg:pb-5">
             <FooterLogo />
             <FooterNavbar />
             <FooterCopy />
