@@ -7,7 +7,7 @@
                 <div
                     class="information__boxes w-[300px] md:w-[240px] lg:w-full flex flex-wrap justify-center items-center lg:flex lg:flex-col lg:justify-center lg:items-center">
                     <h3 class="information__titles text-center text-[21px] font-bold dark:text-white">Shaxsiy maydon</h3>
-                    <p class="information__texts text-center text-base w-[340px] md:w-[180px] mt-5 lg:w-[350px] dark:text-white">
+                    <p class="information__texts text-center text-base w-[340px] md:w-[180px] mt-5 lg:w-[350px] dark:text-white text-dim-gray">
                         Biz chimlarni butun mehr bilan o'stiramiz. Bizning dalalarimiz eng yaxshi parvarishlangan. Keling,
                         ishonch hosil qiling.
                     </p>
@@ -15,7 +15,7 @@
                 <div
                     class="information__boxes w-[300px] md:w-[240px] lg:w-full flex flex-wrap justify-center items-center lg:flex lg:flex-col lg:justify-center lg:items-center">
                     <h3 class="information__titles text-center text-[21px] font-bold dark:text-white">Yevropa sifati</h3>
-                    <p class="information__texts text-center text-base w-[340px] md:w-[180px] mt-5 lg:w-[350px] dark:text-white">
+                    <p class="information__texts text-center text-base w-[340px] md:w-[180px] mt-5 lg:w-[350px] dark:text-white text-dim-gray">
                         Barcha mahsulotlarimiz Yevropa standartlariga javob beradi. Sifat va ekologik tozalik bizning asosiy
                         tamoyillarimizdir
                     </p>
@@ -25,7 +25,7 @@
                     <h3 class="information__titles text-center text-[21px] font-bold dark:text-white md:w-[180px] lg:w-[280px]">Arzon
                         narxlar, yuqori
                         sifat</h3>
-                    <p class="information__texts text-center text-base w-[340px] md:w-[180px] mt-5 lg:w-[350px] dark:text-white">
+                    <p class="information__texts text-center text-base w-[340px] md:w-[180px] mt-5 lg:w-[350px] dark:text-white text-dim-gray">
                         Yevropa sifatidagi chimning O‘zbekistonda eng yaxshi narxlari
                     </p>
                 </div>

@@ -28,7 +28,6 @@ export default {
         '2md': '820px',
         'lg': '1024px',
         'xl': '1206px',
-        '2xl': '1536px',
       }
     },
     theme: {
@@ -38,7 +37,6 @@ export default {
         '2md': '820px',
         'lg': '1024px',
         'xl': '1206px',
-        '2xl': '1536px',
       }
     }
   },
