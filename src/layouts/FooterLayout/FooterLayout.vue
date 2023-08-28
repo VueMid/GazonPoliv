@@ -6,7 +6,7 @@
                 <i class="fa-solid fa-chevron-up fa-lg" style="color: #ffffff;"></i>
             </a>
             <a class="footer__scrollup hidden lg:block" href="#" id="scroll-up">
-                <i class="fa-solid fa-arrow-up fa-beat" style="color: #ffffff;"></i>
+                <i class="fa-solid fa-arrow-up fa-beat scroll__icon" style="color: #ffffff;"></i>
             </a>
             <FooterLogo />
             <FooterNavbar />
@@ -22,16 +22,11 @@ export default {
     components: { FooterNavbar, FooterLogo, FooterCopy },
     mounted() {
         window.addEventListener('scroll', () => {
-            const scrollUp = document.querySelector('#scroll-up')
-            if (window.pageYOffset >= 2000) {
-                scrollUp.style.scale = '1'
-                scrollUp.style.transition = '0.3s'
-
+            const scrollUp = document.getElementById('scroll-up');
+            if (scrollY > 2000) {
+                scrollUp.classList.add('show-scroll');
             } else {
-                // scrollUp.classList.remove('.show-scroll');
-                // scrollUp.style.display = 'none'
-                scrollUp.style.scale = '0'
-                scrollUp.style.transition = '0.3s'
+                scrollUp.classList.remove('show-scroll');
             }
         })
     }

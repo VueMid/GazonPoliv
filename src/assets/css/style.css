@@ -94,13 +94,15 @@ body {
     padding: 0 .3rem;
     border-radius: .4rem;
     z-index: 211;
+    transform: scale(0);
     transition: .4s;
 }
 
 .footer__scrollup:hover {
-    background-color: red;
+    background-color: #06682d;
 }
 
 .show-scroll {
     bottom: 5rem;
+    transform: scale(1);
 }
