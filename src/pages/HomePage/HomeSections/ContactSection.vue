@@ -1,6 +1,6 @@
 <template>
     <section class="contact">
-        <div class="container contact__container w-full flex flex-wrap justify-center items-center gap-10 md:flex md:flex-row md:justify-center md:items-center md:gap-20 
+        <div class="container px-[10px] contact__container w-full flex flex-wrap justify-center items-center gap-10 md:flex md:flex-row md:justify-center md:items-center md:gap-20 md:px-4 
         lg:flex lg:flex-row lg:justify-center lg:items-center lg:gap-0">
             <form
                 class="w-full md:w-[45%] bg-dim-black md:flex md:flex-col md:justify-center md:items-start mx-0 px-[30px] py-[52px] md:px-[40px] md:py-[52px] lg:px-[90px] lg:py-[52px]">

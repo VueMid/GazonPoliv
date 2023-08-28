@@ -31,7 +31,6 @@
         </div>
     </header>
 </template>
-
 <script>
 import DarkMode from '../../MaterialUI/darkMode.vue';
 export default {
@@ -40,10 +39,6 @@ export default {
 </script>
 
 <style lang="scss">
-.header__top.dark {
-    color-scheme: dark;
-}
-
 .header__top {
     font-family: 'Open Sans';
 }
