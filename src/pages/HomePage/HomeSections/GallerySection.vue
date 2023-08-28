@@ -18,7 +18,7 @@
 
         <!-- card -->
         <div
-          class="card cursor-pointer w-[240px] md:w-[295px] lg:w-[350px] lg:h-[285px] overflow-hidden transition-all relative"
+          class="card cursor-pointer w-[340px] md:w-[295px] lg:w-[350px] lg:h-[285px] overflow-hidden transition-all relative"
           v-for="(item, idx) in galleryArray" :key="item" v-show="isFiltered === '' || item.category === isFiltered"
           @click="openModal(idx)">
           <div class="image-block">

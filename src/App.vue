@@ -3,7 +3,7 @@
         <HeaderTopLayout />
         <HeaderLayout />
         <RouterView />
-        <!-- <FooterLayout /> -->
+        <FooterLayout />
     </main>
 </template>
 <script>

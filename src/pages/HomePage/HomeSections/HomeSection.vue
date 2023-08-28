@@ -10,10 +10,10 @@
             <swiper-slide class="relative">
                 <img class="image w-full h-[530px] md:h-[705px] object-cover slider"
                     src="@/assets/images/banner_slider_2.png" alt="#">
-                <div
-                    class="text-content w-full flex flex-col justify-center items-center py-[90px] px-[35px] top-0 left-0 absolute md:flex md:flex-col md:justify-center md:items-center md:left-[0%] md:top-[18%] lg:left-[0%] lg:right-0 lg:mx-0 lg:pl-[0px] lg:top-[15%] z-10 text-white">
+                <div class="text-content w-full flex flex-col justify-center items-center py-[90px] px-[35px] top-0 left-0 absolute md:flex md:flex-col md:justify-center md:items-center md:left-[0%] md:top-[18%] lg:left-[0%] lg:right-0 lg:mx-0 lg:pl-[0px] lg:top-[15%] z-10 text-white
+                lg:flex lg:flex-col lg:justify-center lg:items-center">
                     <h2
-                        class="title w-[300px] text-[35px] font-bold text-center leading-10 md:w-[600px] md:text-center md:text-[42px] md:font-bold lg:w-[600px] lg:text-[72px] lg:font-bold lg:leading-[60px]">
+                        class="title w-[300px] text-[35px] font-bold text-center leading-10 md:w-[600px] md:text-center md:text-[42px] md:font-bold lg:w-[600px] lg:text-[72px] lg:font-bold lg:leading-[90px]">
                         Parvarish qilish
                         xizmati
                     </h2>
@@ -25,10 +25,10 @@
             </swiper-slide>
             <swiper-slide class="relative">
                 <img class="image w-full h-[530px] md:h-[705px] object-cover slider" src="@/assets/images/uy.png" alt="#">
-                <div
-                    class="text-content w-full flex flex-col justify-center items-center py-[90px] px-[35px] top-0 left-0 absolute md:flex md:flex-col md:justify-center md:items-center md:left-[0%] md:top-[18%] lg:left-[0%] lg:right-0 lg:mx-0 lg:pl-[0px] lg:top-[15%] z-10 text-white">
+                <div class="text-content w-full flex flex-col justify-center items-center py-[90px] px-[35px] top-0 left-0 absolute md:flex md:flex-col md:justify-center md:items-center md:left-[0%] md:top-[18%] lg:left-[0%] lg:right-0 lg:mx-0 lg:pl-[0px] lg:top-[15%] z-10 text-white
+                lg:flex lg:flex-col lg:justify-center lg:items-center">
                     <h2
-                        class="title w-[300px] text-[35px] font-bold text-center leading-10 md:w-[600px] md:text-center md:text-[42px] md:font-bold lg:w-[600px] lg:text-[72px] lg:font-bold lg:leading-[60px]">
+                        class="title w-[300px] text-[35px] font-bold text-center leading-10 md:w-[600px] md:text-center md:text-[42px] md:font-bold lg:w-[600px] lg:text-[72px] lg:font-bold lg:leading-[90px]">
                         Parvarish qilish
                         xizmati
                     </h2>
@@ -41,10 +41,10 @@
             <swiper-slide class="relative">
                 <img class="image w-full h-[530px] md:h-[705px] object-cover slider" src="@/assets/images/plant.png"
                     alt="#">
-                <div
-                    class="text-content w-full flex flex-col justify-center items-center py-[90px] px-[35px] top-0 left-0 absolute md:flex md:flex-col md:justify-center md:items-center md:left-[0%] md:top-[18%] lg:left-[0%] lg:right-0 lg:mx-0 lg:pl-[0px] lg:top-[15%] z-10 text-white">
+                <div class="text-content w-full flex flex-col justify-center items-center py-[90px] px-[35px] top-0 left-0 absolute md:flex md:flex-col md:justify-center md:items-center md:left-[0%] md:top-[18%] lg:left-[0%] lg:right-0 lg:mx-0 lg:pl-[0px] lg:top-[15%] z-10 text-white
+                lg:flex lg:flex-col lg:justify-center lg:items-center">
                     <h2
-                        class="title w-[300px] text-[35px] font-bold text-center leading-10 md:w-[600px] md:text-center md:text-[42px] md:font-bold lg:w-[600px] lg:text-[72px] lg:font-bold lg:leading-[60px]">
+                        class="title w-[300px] text-[35px] font-bold text-center leading-10 md:w-[600px] md:text-center md:text-[42px] md:font-bold lg:w-[600px] lg:text-[72px] lg:font-bold lg:leading-[90px]">
                         Parvarish qilish
                         xizmati
                     </h2>
